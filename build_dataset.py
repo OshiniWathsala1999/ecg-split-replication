@@ -6,8 +6,8 @@ matching the style of the images used in the original honours thesis.
 import glob, os, numpy as np, wfdb
 from PIL import Image, ImageDraw
 
-SRC = '/tmp/mitdb/MITBIH-master/mitbih'
-OUT = '/tmp/work'
+SRC = 'mit-bih-arrhythmia-database-1.0.0'
+OUT = '.'
 PACED = {'102', '104', '107', '217'}          # excluded per AAMI practice
 AAMI = {**{s: 0 for s in 'NLRej'},            # N  normal / bundle branch / escape
         **{s: 1 for s in 'AaJS'},             # S  supraventricular ectopic
