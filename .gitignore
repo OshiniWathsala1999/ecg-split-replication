@@ -1,0 +1,20 @@
+# data and results (regenerate with build_dataset.py / run_all.py)
+X.npy
+y.npy
+rid.npy
+*.json
+
+# credentials — never commit
+key.json
+*.pem
+.env
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# os
+.DS_Store

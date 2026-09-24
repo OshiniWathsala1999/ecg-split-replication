@@ -1,0 +1,8 @@
+numpy>=1.24
+wfdb>=4.1
+pillow>=10.0
+torch>=2.0
+
+# optional: alternative implementation in train.py
+# jax>=0.4
+# optax>=0.2
